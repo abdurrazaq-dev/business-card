@@ -1,0 +1,52 @@
+/* Reset and center text inside card only */
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0; /* light background around the card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background: white;
+    width: 600px;       /* fixed width for your “page” */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  img {
+    background-color: chocolate;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  
+  .position, .mail {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h1 {
+    margin: 0 0 10px 0;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #555;
+  }
+  
